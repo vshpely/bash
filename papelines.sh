@@ -10,6 +10,10 @@
 # run the command two times
 # write a command that outputs only users that have /usr/bin/false shell from /etc/passwd file and changes the shell to /bin/bash
 
-#mkdir Igor_Obushko && touch ~/Igor_Obushko/my_file && echo "Hello" > ~/Igor_Obushko/my_file && cat ~/Igor_Obushko/my_file || echo "Something went wrong"
+#First pipeline 
 
+#mkdir Boris_Johnson && touch ~/Boris_Johnson/my_file && echo "Hello" > ~/Boris_Johnson/my_file && cat ~/Boris_Johnson/my_file || echo "Something went wrong"
+
+#Second pipeline
+cat /etc/password | grep /usr/bin/false && sed -i 's/"/usr/bin/false"/"/bin/bash/"/' /etc/password
 
