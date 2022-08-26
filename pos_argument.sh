@@ -11,7 +11,6 @@
 
 count=$#
 i=1
-str=0
 declare -a array
 while [ $i -le $count ]
 do
