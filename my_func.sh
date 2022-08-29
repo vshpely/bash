@@ -1,4 +1,12 @@
 #!/bin/bash
+#Tasks:
+
+#- create a script that does the following:
+
+#has a function that multiplies the argument passed to it by itself
+#has a second function that passes each argument passed to the script to the first function and increases the result by 1 and outputs to the console
+
+
 
 t=0
 mult() {
